@@ -30,6 +30,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <reports>Report.Товары</reports>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
