@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="620c7fa0-68e1-4b1c-af28-7817d6211f13">
+  <producedTypes>
+    <objectType typeId="29da0443-c78c-4af3-97f5-f611bd050080" valueTypeId="add5dea0-89b5-4bdd-a98f-09211632ef81"/>
+    <refType typeId="b5ca7c78-99cb-4822-80d0-401503097045" valueTypeId="ef2aca80-387f-453a-b1db-f0f19fb6778d"/>
+    <selectionType typeId="92ba3e16-7e87-4e8b-adc7-66e101fa73e2" valueTypeId="9bcb8cd4-0d3b-405b-b6fd-c570ba0fd6f5"/>
+    <listType typeId="d3158003-ceaf-4663-81f9-1979be600862" valueTypeId="90f244c7-249a-49c8-b321-a19ab4c5d0b4"/>
+    <managerType typeId="7e3d1823-2c44-48e8-8d49-5e9231b77957" valueTypeId="3367d5d8-f8e1-4983-83ff-eabe27b4f969"/>
+  </producedTypes>
+  <name>ПриходнаяНакладная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приходная накладная</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриходнаяНакладная.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccountingRegister.Управленческий</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="bc03e4fc-6b62-4e42-bafc-683942ceaf30">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="9b2d4cf2-d8f0-4497-a985-953542971a7c">
+    <producedTypes>
+      <objectType typeId="d6f63a4c-3cf1-40d1-8917-7fb0f76ae2c7" valueTypeId="81a3b062-5631-43c7-9b43-319837c4f6c7"/>
+      <rowType typeId="eadbdfa5-013a-43ac-b6e8-5c821f6af145" valueTypeId="cf20b155-9bd1-4a77-93e3-6627506d570b"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="8639db8f-6d09-4561-ad0b-43f30d8657dc">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Товары</types>
+      </type>
+    </attributes>
+    <attributes uuid="3b074533-816b-4ff0-9269-77b34f03fcd9">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0627edb0-bfe9-4d7c-99d1-156bd5c295f5">
+  <name>Тест3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест3</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e7732118-0c18-4e5f-8951-2cb115c832ae"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="73db6d6f-a9a1-4c92-98e3-4ebe9ad303a2"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e335d36d-def3-4a87-9eed-f1d9fe3ba264"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="fa85d1b6-182a-4623-9838-5a589436fbbb"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="cfb5fc1c-431c-426d-95f7-2638d0211176"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="309fc58d-2ee2-4d39-b051-7fee858fa487"/>
+  <configurationExtensionCompatibilityMode>8.3.8</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.8</compatibilityMode>
+  <languages uuid="cdbdf3f1-0be9-4a38-b5b6-5fdd3552c998">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Товары</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <reports>Report.Товары</reports>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.ПланСчетов</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
+</mdclass:Configuration>

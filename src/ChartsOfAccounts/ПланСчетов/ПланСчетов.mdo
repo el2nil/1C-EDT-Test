@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca3919c7-6917-403e-af8b-ff2fdf9c4f66">
+  <producedTypes>
+    <objectType typeId="28e402fd-cc0f-4f48-9a02-24f3065d5110" valueTypeId="7b613702-0603-4b73-9d13-636053e671c3"/>
+    <refType typeId="ce6acc6a-e323-4129-aa6f-f0d46ff30e07" valueTypeId="e9733b9a-21e9-462a-a91f-127fbd0790bd"/>
+    <selectionType typeId="6d11ba5b-2b1a-4ef7-b2cc-813763024e53" valueTypeId="103f30b7-c1d7-439d-b7a0-b7dfdea66cf7"/>
+    <listType typeId="fba66b37-ed7d-4009-b05a-bc0552eac2fc" valueTypeId="1eb16b60-1028-4136-b44a-3f062a20b865"/>
+    <managerType typeId="800398b4-75df-4c62-a784-adb7b01c5abe" valueTypeId="d03d114f-f252-47b2-81b7-e69c182f1d41"/>
+    <extDimensionTypes typeId="004d396d-d86e-495c-99a6-ac6a9f8267e3" valueTypeId="2942438f-2b88-4d39-bb2b-04512d78d1e1"/>
+    <extDimensionTypesRow typeId="c7553621-6185-4f48-bf74-652954b6cce6" valueTypeId="17fcb045-fbb7-4287-b032-94c198574cdc"/>
+  </producedTypes>
+  <name>ПланСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>План счетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.ПланСчетов.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfAccounts.ПланСчетов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконто</extDimensionTypes>
+  <maxExtDimensionCount>1</maxExtDimensionCount>
+  <codeLength>2</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="9c02d834-717a-44e2-b697-fca4a775963b">
+      <name>Товары</name>
+      <description>Товары</description>
+      <code>01</code>
+      <accountingFlags>ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный</accountingFlags>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Товары</characteristicType>
+      </extDimensionTypes>
+    </items>
+    <items id="d3796321-fd0c-4b8d-a5ed-3edafa1b8a65">
+      <name>Поставщики</name>
+      <description>Поставщики</description>
+      <code>02</code>
+      <accountType>ActivePassive</accountType>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <accountingFlags uuid="cb28db6a-5870-4b83-83ad-3808d40d3f9c">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </accountingFlags>
+</mdclass:ChartOfAccounts>

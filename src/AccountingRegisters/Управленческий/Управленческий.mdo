@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ebcff59-76fa-4c3b-9ed0-430185742447">
+  <producedTypes>
+    <selectionType typeId="c4cd1c78-3d0c-400b-9190-94604ac17f07" valueTypeId="09419954-a9d7-4c5e-ab50-50b80ffe1386"/>
+    <listType typeId="b03c692e-1145-475a-a1ec-205046a5da58" valueTypeId="239a911a-3d65-4a0c-ad80-eea55f3d9e98"/>
+    <managerType typeId="38921a9e-605f-411b-94e9-23b2e59151da" valueTypeId="c0722b76-d36f-4686-87bc-100e5328cde3"/>
+    <recordSetType typeId="1b591578-2678-4ca5-bfc2-a31ad0dbdbf3" valueTypeId="71ee4f0d-fb44-4eed-9dff-8257ee5d3f4a"/>
+    <recordKeyType typeId="3d0ee6f1-16af-412c-ac4a-bf40e9689b63" valueTypeId="5ce8c7ee-959e-4a7f-9e81-59dbef442fa1"/>
+    <recordType typeId="dc9823dc-5860-4d8b-8eb0-f65969e22626" valueTypeId="c4f392d0-a11d-4311-947c-51420475bc0d"/>
+    <extDimensionsType typeId="7c0399ad-aa56-4838-80f5-778e15519c37" valueTypeId="7808716a-9e91-4606-a726-f421264ac9a3"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.ПланСчетов</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <fullTextSearch>Use</fullTextSearch>
+  <resources uuid="942f4862-c1b4-4a1d-84ce-e58313a3d657">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+  <resources uuid="72a702c9-7f62-4e45-947a-3b2a70baa611">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <accountingFlag>ChartOfAccounts.ПланСчетов.AccountingFlag.Количественный</accountingFlag>
+  </resources>
+</mdclass:AccountingRegister>

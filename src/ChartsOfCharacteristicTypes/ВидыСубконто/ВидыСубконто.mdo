@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="342c52ce-ec6a-453f-ba0b-d13d04ffaaeb">
+  <producedTypes>
+    <objectType typeId="f464a950-a368-43f1-9e61-363a049843d8" valueTypeId="841a8324-0537-457f-ae6a-6913da6092f1"/>
+    <refType typeId="0d5937bb-be7d-41fa-9460-1256b03ebd17" valueTypeId="cf9f3fa8-694d-453d-9f6a-40145be483ba"/>
+    <selectionType typeId="34ea8be4-4ab2-4ab9-9273-9ccefd6467dd" valueTypeId="ba2822cf-cd09-4a04-a48e-724f7afb16f0"/>
+    <listType typeId="6e6bc530-9a6f-46bd-9be1-c23cb47770ab" valueTypeId="9fe147bd-efc5-4587-9906-6089b4c690d0"/>
+    <managerType typeId="4dbd2e1e-94b8-410b-839b-a4f340c5b546" valueTypeId="fd959ce4-043e-4b6f-8aec-e46204eacf7b"/>
+    <containerType typeId="2cd2a34d-aafb-4ef7-bcaa-c4e1588e62d2" valueTypeId="e07e7ecf-7b48-4dfb-a102-fe2de6942e16"/>
+  </producedTypes>
+  <name>ВидыСубконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды субконто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Товары</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="261b6c71-099b-4ca7-bf14-0cc5beffc85a">
+      <name>Товары</name>
+      <description>Товары</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Товары</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>
