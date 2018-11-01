@@ -32,6 +32,7 @@
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ДоговорыКлиентов</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <reports>Report.Товары</reports>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
